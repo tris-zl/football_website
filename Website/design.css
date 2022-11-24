@@ -34,6 +34,7 @@ body {
 
 .button_1 {
   margin-left: 15%;
+  margin-bottom: 15px;
 }
 
 .buttons_pressed {
@@ -224,15 +225,6 @@ mark{
   color: black;
 }
 
-table {
-  table-layout: fixed;
-  width: 80%;
-  border-collapse: collapse;
-  border: 3px solid black;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .imgs_system {
   border: 3px solid #3f3f3f;
   padding: 20px;
@@ -250,14 +242,53 @@ table {
   height: 500px;
 }
 
-a.footer:link {
-  color:#3f3f3f;
-  margin-left: 2%;
+.img_description {font-style: bold;}
+
+.footer_links {
+  margin-left: 15%;
 }
 
-a.menu_l:link {
-  padding: 20px;
+a.footer {
+  color: black;
+  margin-left: 3%;
 }
+
+.menu_btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px 70px;
+  border: 3px solid purple;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+}
+
+a.menu_link {
+  color:black;
+  font-size: large;
+  margin-left: 5%;
+}
+
+.youtube {
+  padding: 20px;
+  border: 3px solid #3f3f3f;
+  width: 1250px;
+}
+
+.f1{float:left}
+
+.f2{float:right}
+
+.figcaption {
+  font-family:'Playfair Display';
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.main{margin-left: 10%;}
 
 .form-container .btn:hover, .open-button:hover { opacity: 1; }
 

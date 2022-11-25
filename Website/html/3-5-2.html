@@ -12,10 +12,10 @@
 	
 	<body>
 		<div class="container_top">
-			<img class="logo_img", src="../images\TFS_logo.png">
+			<a href="../index.html"><img class="logo_img" src="../images\TFS_logo.png"></a>
 			
 			<div class="button_1">
-				<button class="buttons_pressed" onclick="openForm()">Aufstellungen</button>
+				<button class="buttons_pressed" id="btn_1">Aufstellungen</button>
 			</div>
 			&nbsp;&nbsp;
 
@@ -73,23 +73,25 @@
 					<button type="form" class="menu_btn">Home</button>
 				</form>
 
-				<form action="3-4-3.html">
-					<button type="form" class="menu_btn">Aufstellungen</button>
-				</form>
-				<p><b><a href="3-4-3.html" class="menu_link">3-4-3 - System</a></b></p>
-				<p><b><a href="3-5-2.html" class="menu_link">3-5-2 - System</a></b></p>
+				<div class="menu_aufstellungen_btn">
+					<button type="button" class="menu_btn" id="menu_aufstellungen_btn">Aufstellungen</button>
+				</div>
+				<div id="menu_links" class="menu_links">
+					<p><b><a href="3-4-3.html" class="menu_link">3-4-3 - System</a></b></p>
+					<p><b><a href="3-5-2.html" class="menu_link">3-5-2 - System</a></b></p>
 
-				<p><b><a href="4-1-2-1-2.html" class="menu_link">4-1-2-1-2 - System</a></b></p>
-				<p><b><a href="4-1-4-1.html" class="menu_link">4-1-4-1 - System</a></b></p>
-				<p><b><a href="4-2-3-1.html" class="menu_link">4-2-3-1 - System</a></b></p>
-				<p><b><a href="4-2-2-2.html" class="menu_link">4-2-2-2 - System</a></b></p>
-				<p><b><a href="4-3-3.html" class="menu_link">4-3-3 - System</a></b></p>
-				<p><b><a href="4-2-2.html" class="menu_link">4-2-2 - System</a></b></p>
-				<p><b><a href="4-5-1.html" class="menu_link">4-5-1 - System</a></b></p>
+					<p><b><a href="4-1-2-1-2.html" class="menu_link">4-1-2-1-2 - System</a></b></p>
+					<p><b><a href="4-1-4-1.html" class="menu_link">4-1-4-1 - System</a></b></p>
+					<p><b><a href="4-2-3-1.html" class="menu_link">4-2-3-1 - System</a></b></p>
+					<p><b><a href="4-2-2-2.html" class="menu_link">4-2-2-2 - System</a></b></p>
+					<p><b><a href="4-3-3.html" class="menu_link">4-3-3 - System</a></b></p>
+					<p><b><a href="4-2-2.html" class="menu_link">4-2-2 - System</a></b></p>
+					<p><b><a href="4-5-1.html" class="menu_link">4-5-1 - System</a></b></p>
 
-				<p><b><a href="5-2-1-2.html" class="menu_link">5-2-1-2 - System</a></b></p>
-				<p><b><a href="5-2-2-1.html" class="menu_link">5-2-2-1 - System</a></b></p>
-				<p><b><a href="5-4-1.html" class="menu_link">5-4-1 - System</a></b></p>
+					<p><b><a href="5-2-1-2.html" class="menu_link">5-2-1-2 - System</a></b></p>
+					<p><b><a href="5-2-2-1.html" class="menu_link">5-2-2-1 - System</a></b></p>
+					<p><b><a href="5-4-1.html" class="menu_link">5-4-1 - System</a></b></p>
+				</div>
 
 				<form action="spielanalysen.html">
 					<button type="form" class="menu_btn">Spielanalysen</button>
@@ -117,22 +119,22 @@
 							Das 3-5-2 ist ein dominantes System. Das bedeutet, dass die Mannschaft den Ball lang und oft in den eigenen Reihen laufen lassen möchte.
 							Der Fokus liegt im Passspiel und auf dem Ballbesitz, jedoch kann das Konterspiel bzw. schnelle Umschalten durchaus auch einen Vorteil des 3-5-2 darstellen.
 						</p>
-					
+
 					<h4>Vorteile</h4>
-					<p>
-						-In der letzten Abwehrreihe herrscht Überzahl <br>
-						-Die Mannschaft ist in Breite und Tiefe sehr gut gestaffelt <br>
-						-Es können schnell Passdreiecke gebildet werden
-					</p>
+					<ul>
+						<li>In der letzten Abwehrreihe herrscht Überzahl</li>
+						<li>Die Mannschaft ist in Breite und Tiefe sehr gut gestaffelt</li>
+						<li>Es können schnell Passdreiecke gebildet werden</li>
+					</ul>
 
 					<hr class="hr1">
 
 					<h4>Nachteile</h4>
-					<p>
-						-Die lediglich einfach besetzte Außenbahn kann zum Problem werden <br>
-						-Man hat nicht mehr die typischen Flügelspieler, sondern nur noch die zwei Stürmer <br>
-						-Das System ist wenig ausbalanciert, wenn man die Verteilung der Spieler auf dem Feld und die Abstände betrachtet
-					</p>
+					<ul>
+						<li>Die lediglich einfach besetzte Außenbahn kann zum Problem werden</li>
+						<li>Man hat nicht mehr die typischen Flügelspieler, sondern nur noch die zwei Stürmer</li>
+						<li>Das System ist wenig ausbalanciert, wenn man die Verteilung der Spieler auf dem Feld und die Abstände betrachtet</li>
+					</ul>
 					
 					<h4>Detaillierte Erklärung </h4>
 					<div class="youtube">
@@ -164,6 +166,6 @@
 			</div>
 		</div>
 
-		<script src="my_script.js"></script>
+		<script src="../my_script.js"></script>
 	</body>
 </html>

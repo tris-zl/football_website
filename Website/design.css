@@ -28,7 +28,7 @@ body {
 .logo_img {
   display: block;
   border-radius: 8px;
-  width: 8%;
+  width: 165px;
   height: auto;
 }
 
@@ -217,7 +217,11 @@ h5{
 
 p{
   text-align: left;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
 }
 
 mark{
@@ -262,6 +266,14 @@ a.footer {
   cursor: pointer;
   width: 100%;
   opacity: 1;
+}
+
+.menu_aufstellungen_btn{
+  margin-bottom: 30px;
+}
+
+.menu_links {
+  display: none;
 }
 
 a.menu_link {

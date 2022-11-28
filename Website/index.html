@@ -3,6 +3,9 @@
 	<title>Fußball-Taktiken</title>
 
 	<link rel="stylesheet" type="text/css" href="design.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 
 	</head>
@@ -17,15 +20,29 @@
 
 			<div class="form-popup" id="myForm">
 				<div class="form-container">
-					<h3>Wähle die gewünschte Aufstellung</h3>
-					
-					<form action="html\3-4-3.html">
-						<button type="form" class="btn _343">3-4-3 - System</button>
-					</form>
+					<div class="dreierkette">
+						<h2>3er - Kette</h2>
+						<p><b><a href="html\3-4-3.html" class="menu_link">3-4-3 - System</a></b></p>
+						<p><b><a href="html\3-5-2.html" class="menu_link">3-5-2 - System</a></b></p>
+					</div>
 
-					<form action="html\3-5-2.html">
-						<button type="form" class="btn _352">3-5-2 - System</button>
-					</form>
+					<div class="viererkette">
+						<h2>4er - Kette</h2>
+						<p><b><a href="html\4-1-2-1-2.html" class="menu_link">4-1-2-1-2 - System</a></b></p>
+						<p><b><a href="html\4-1-4-1.html" class="menu_link">4-1-4-1 - System</a></b></p>
+						<p><b><a href="html\4-2-3-1.html" class="menu_link">4-2-3-1 - System</a></b></p>
+						<p><b><a href="html\4-2-2-2.html" class="menu_link">4-2-2-2 - System</a></b></p>
+						<p><b><a href="html\4-3-3.html" class="menu_link">4-3-3 - System</a></b></p>
+						<p><b><a href="html\4-2-2.html" class="menu_link">4-2-2 - System</a></b></p>
+						<p><b><a href="html\4-5-1.html" class="menu_link">4-5-1 - System</a></b></p>
+					</div>
+
+					<div class="fünferkette">
+						<h2>5er - Kette</h2>
+						<p><b><a href="html\5-2-1-2.html" class="menu_link">5-2-1-2 - System</a></b></p>
+						<p><b><a href="html\5-2-2-1.html" class="menu_link">5-2-2-1 - System</a></b></p>
+						<p><b><a href="html\5-4-1.html" class="menu_link">5-4-1 - System</a></b></p>
+					</div>
 
 					<button type="button" class="btn close" onclick="closeForm()">Close</button>
 				</div>
@@ -36,16 +53,21 @@
 			</form>
 
 			&nbsp;&nbsp;
+			<form action="html\athletic.html">
+				<button type="form" class="buttons_pressed">Athletiktraining</button>
+			</form>
+
+			&nbsp;&nbsp;
+			<form action="html\shop.html">
+				<button type="form" class="buttons_pressed">Shop</button>
+			</form>
+
+			&nbsp;&nbsp;
 			<div>
 				<form action="html\karriereTFS.html">
 					<button type="form" class="buttons_pressed">Karriere bei TFS</button>
 				</form>
 			</div>
-
-			&nbsp;&nbsp;
-			<form action="html\ueber_uns.html">
-				<button type="form" class="buttons_pressed">Über uns</button>
-			</form>
 
 			<div class="button_einloggen">
 				<button class="buttons_no_boarder">Einloggen</button>
@@ -65,7 +87,7 @@
 		<div class="container_middle">
 			<div class="block">
 				<h1><mark>Alle</mark> Taktiken auf <br> einen Blick</h1>
-				<h2>TFS hilft Taktiken zu vergleichen, auszusuchen <br> und die <mark>optimale</mark> auszusuchen!</h2>
+				<h6>TFS hilft Taktiken zu vergleichen, auszusuchen <br> und die <mark>optimale</mark> auszusuchen!</h6>
 
 				<div>
 					<button class="button_hover", style="vertical-align:middle"> <span>Kostenlos registrieren</span></button>

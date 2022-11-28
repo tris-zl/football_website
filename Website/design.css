@@ -33,7 +33,7 @@ body {
 }
 
 .button_1 {
-  margin-left: 15%;
+  margin-left: 13%;
   margin-bottom: 15px;
 }
 
@@ -67,10 +67,11 @@ body {
   top: 120px;
   border: 3px solid #6f0c96;
   z-index: 9;
+  width: 800px;;
 }
 
 .form-container {
-  max-width: 300px;
+  max-width: 800px;
   padding: 10px;
   background-color: white;
 }
@@ -96,6 +97,22 @@ body {
 
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+.form-container .dreierkette {
+  float: left;
+  width: 25%;
+  margin-left: 5px;
+}
+
+.form-container .viererkette {
+  float: left;
+  width: 25%;
+}
+
+.form-container .fünferkette {
+  float: left;
+  width: 25%;
 }
 
 .buttons_no_boarder {
@@ -180,9 +197,8 @@ h1{
 }
 
 h2{
-  font-size: xx-large;
-  font-family:'Playfair Display';
-  font-style: italic;
+  text-align: left;
+  text-decoration: underline;
 }
 
 h3{
@@ -190,16 +206,15 @@ h3{
   font-family:'Playfair Display';
 }
 
-h4{
-  text-align: left;
-  font-size: 80px;
-  font-weight: 150;
-  font-family: 'Open Sans', sans-serif;
-}
-
 h5{
   text-align: left;
   font-size: 80px;
+  font-family:'Playfair Display';
+}
+
+h6{
+  font-size: x-large;
+  text-align: left;
   font-family:'Playfair Display';
 }
 
